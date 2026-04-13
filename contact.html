@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic page settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Paula Architecture - Contact</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- Main header -->
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <p class="brand-kicker">Ana Paula</p>
+      <h1 class="brand-name">Architecture & Holistic Living</h1>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      ☰
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+    <!-- Page introduction -->
+    <section class="page-intro">
+        <h2>Contact</h2>
+        <p>
+            Get in touch to discuss your project and explore a more intentional approach to architecture and lifestyle.
+        </p>
+    </section>
+
+    <!-- Main content area -->
+    <section class="main-content">
+        <article>
+            <h1>Get in Touch</h1>
+
+            <p class="brown-text">
+                If you would like to discuss a residential or commercial project, feel free to contact Ana Paula Architecture.
+            </p>
+
+            <!-- Contact information -->
+            <div class="contact-info-box">
+                <p class="dark-text">Email: <a href="mailto:arq.anats@gmail.com">arq.anats@gmail.com</a></p>
+                <p class="dark-text">WhatsApp: <a href="https://wa.me/353874866173" target="_blank" rel="noopener">+353 87 486 6173</a></p>
+                <p class="dark-text">Instagram: <a href="https://instagram.com/arquitetaanateixeira" target="_blank" rel="noopener">@arquitetaanateixeira</a></p>
+            </div>
+
+            <!-- Contact form required for assignment -->
+            <form id="contactForm" class="contact-form" novalidate>
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+
+                <label for="query">Nature of Your Query</label>
+                <textarea id="query" name="query" rows="5" placeholder="Write your message here"></textarea>
+
+                <button type="submit" class="button">Send Message</button>
+
+                <!-- Validation message output -->
+                <p id="formMessage" class="form-message"></p>
+            </form>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Ana Paula Architecture</p>
+    </footer>
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
