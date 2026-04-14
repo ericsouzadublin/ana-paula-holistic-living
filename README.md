@@ -3,7 +3,7 @@
 A multi-page website designed to present holistic architecture services, focusing on clarity, balance, and user experience.
 
 ## Live Site
-https://ericsouzadublin.github.io/ana-paula-holistic-living/
+https://ana-paula-holistic-living.netlify.app
 
 ## Technologies
 - HTML
